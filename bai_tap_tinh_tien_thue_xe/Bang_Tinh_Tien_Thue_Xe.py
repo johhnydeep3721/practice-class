@@ -23,5 +23,7 @@ class BangTinhTienThueXe:
             ThanhTien = DonGia*SoNgay
             custumer = KhachHang(Stt, HoDem, Ten, NoiDuLich,NgayDi,NgayVe,SoNgay,DonGia,ThanhTien)
             self.list_nguoi_thue.append(custumer)
+            
 
-BangTinhTienThueXe.taobang()
+test = BangTinhTienThueXe()
+test.taobang()
